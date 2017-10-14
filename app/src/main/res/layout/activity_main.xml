@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.elbhwashy.reportcard.MainActivity">
+
+    <TextView
+        android:id="@+id/arabic"
+        android:text="Arabic"
+        style="@style/SupjectStyle"
+        android:background="#3d1c14"
+
+        />
+    <TextView
+        android:id="@+id/math"
+        android:text="Math"
+        style="@style/SupjectStyle"
+        android:background="#662c17"
+
+        />
+    <TextView
+        android:id="@+id/english"
+        android:text="English"
+        style="@style/SupjectStyle"
+        android:background="#5c5c2e"
+
+        />
+    <TextView
+        android:id="@+id/physics"
+        android:text="Physics"
+        style="@style/SupjectStyle"
+        android:background="#343d17"
+
+        />
+    <TextView
+        android:id="@+id/chemistry"
+        android:text="Chemistry"
+        style="@style/SupjectStyle"
+        android:background="#1b2b39"
+
+        />
+    <TextView
+        android:id="@+id/frensh"
+        android:text="Frensh"
+        style="@style/SupjectStyle"
+        android:background="#212d25"
+
+        />
+    <TextView
+        android:id="@+id/sum"
+        android:text="Sum"
+        style="@style/SupjectStyle"
+        android:background="#124161"
+
+        />
+
+</android.support.v7.widget.LinearLayoutCompat>
